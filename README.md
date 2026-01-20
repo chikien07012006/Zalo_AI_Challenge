@@ -73,10 +73,7 @@ Hoặc dùng `src/visualization.py` để xuất video kèm thông tin frame & s
 - Đa GPU: chia video và dùng `torch.multiprocessing` để rút ngắn thời gian suy luận hàng loạt.
 - Theo dõi kết quả: lưu mọi checkpoint/bbiểu đồ vào `src/runs/detect/*` để so sánh nhanh giữa các lần fine-tune.
 
-## Đường dẫn mẫu (thay bằng của bạn)
-- Checkpoint: `src/runs/detect/continuing_dp5/weights/best.pt`
-- Dữ liệu thô: `/Data/Raw/train` và `/Data/Raw/public_test`
-- Dự đoán: `src/runs/detect/final_predictions.json` hoặc `final_predictions_dp*.json`
+
 # Zalo_AI_Challenge
 # Zalo_AI_Challenge
 # Zalo_AI_Challenge
